@@ -7,7 +7,7 @@ function Install-Everything {
         [string]$Title = ""
     )
     Write-Host "Installing all required Packages..."
-    # choco install .\configs\packages.config
+    choco install .\configs\packages.config
 
     Write-Host "Extensions installed sucessfully..."
 }
